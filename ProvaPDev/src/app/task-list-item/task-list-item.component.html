@@ -1,0 +1,19 @@
+<div [innerHTML]="task.description" class="task-item-description"
+[ngClass]="task.completed ? 'task-completed' : ''">
+</div>
+<div>
+  <button type="button" [routerLink]="['/edit', task.id]" class="btn btn-dark mr-1">
+    Editar
+  </button>
+</div>
+<div>
+  <button type="button" class="btn btn-danger" (click)="remove(task)">
+    Excluir
+  </button>
+</div>
+<div>
+  <button type="button" class="btn btn-secondary">
+    Simular Investimento
+  </button>
+
+</div>
