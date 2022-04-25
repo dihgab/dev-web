@@ -1,27 +1,24 @@
-# TodoAppAngular
+# Prova p/ DEV - Angular 13
+Esse projeto foi feito com [Angular CLI](https://github.com/angular/angular-cli) na versão 13.3.3. Com o auxílio do framework [Angular 13](https://angular.io/), os usuários podem cadastrar, editar, excluir e simular investimento em uma lista de artigos do arquivo simulado. Este projeto também inclui componentes do [Bootstrap](https://getbootstrap.com/) como tabela, botões, pop-ups, etc.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+## 1. Pré-Requisitos
+- [NodeJS 6+](https://nodejs.org/en/)
+- [Git](https://git-scm.com/downloads)
+- [Angular CLI 1.6.5+](https://angular.io/)
 
-## Development server
+## 2. Obtenção do Projeto
+Utilizando Git no Terminal:
+```sh
+$ git chttps://github.com/dihgab/dev-web
+$ cd dev-web
+$ npm install
+```
+### Ou
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Baixe o arquivo aqui.
 
-## Code scaffolding
+## 3. Execução do Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Após fazer um diretório utilizando `cd (nome da pasta)` para a pasta do projeto. Execute `ng serve` para criar um servidor dev. Navegue até `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você alterar qualquer um dos arquivos de origem.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Application in action](https://i.imgur.com/5XxN4ws.gif)
