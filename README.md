@@ -14,7 +14,6 @@
    <div align="center">🛠 | Linguagens Utilizadas:
  </div>
  <br />
- <br />
  <div align="center">
  🌎 | Framework:
  <img src="https://img.shields.io/badge/-Angular-red?style=flat-square&logo=angular&logoColor=white"/>
